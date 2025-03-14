@@ -30,10 +30,10 @@ cat <<EOF > /tmp/ss_config.json
 EOF
 
 # Use SSH to transfer the configuration file to the remote host
-scp /tmp/ss_config.json user@$REMOTE_HOST:/path/to/ss_config.json
+scp /tmp/ss_config.json user@$REMOTE_HOST:~/ss_config.json
 
 # Start the Shadowsocks-Rust server on the remote host using SSH
-ssh user@$REMOTE_HOST "ss-server -c /path/to/ss_config.json"
+ssh user@$REMOTE_HOST "ss-server -c ~/ss_config.json"
 
 # Remove the temporary configuration file on the local machine
 rm /tmp/ss_config.json
