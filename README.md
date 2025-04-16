@@ -5,7 +5,7 @@ dnshistory: Checks historical IP's of requested Domain Name on CLI
 
 ═════════════════════════════════════
 
-CVE Checker Tool
+# CVE Checker Tool
 This script scans files for CVE (Common Vulnerabilities and Exposures) references and automatically checks Oracle Linux and Red Hat security databases for detailed information about these vulnerabilities.
 Features
 
