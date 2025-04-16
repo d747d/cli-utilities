@@ -35,10 +35,10 @@ Usage
 Basic usage:
 python cve_checker_new.py --input <file_or_directory> --output <output_file.csv>
 Examples:
-# Check a single file
+### Check a single file
 python cve_checker_new.py --input security_report.txt --output cve_results.csv
 
-# Check all files in a directory
+### Check all files in a directory
 python cve_checker_new.py --input /path/to/logs/ --output cve_results.csv
 Output
 The script generates a CSV file with the following columns:
