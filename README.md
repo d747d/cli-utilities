@@ -3,54 +3,7 @@
 ═════════════════════════════════════
 
 
-═════════════════════════════════════
 
-# CVE Checker
-
-A tool for scanning files for CVE references and retrieving vulnerability data from Oracle Linux and Red Hat.
-
-## Installation
-```
-pip install requests beautifulsoup4
-```
-
-## Usage
-```
-python cve_checker_new.py --input <file_or_directory> --output <output_file.csv>
-```
-
-### Examples
-```
-# Single file
-python cve_checker_new.py --input security_report.txt --output results.csv
-
-# Directory
-python cve_checker_new.py --input /path/to/logs/ --output results.csv
-```
-
-## Features
-### Core Capabilities
-- Scans text, JSON, and CSV files for CVE references
-- Queries Oracle Linux and Red Hat security databases
-- Identifies Windows-only vulnerabilities
-- Extracts package names and version information
-- Exports results to CSV
-
-### Output Format
-CSV file with columns:
-- **CVE**: Vulnerability identifier
-- **Oracle_URL**: Oracle Linux information link
-- **RedHat_URL**: Red Hat information link
-- **Windows_Only**: Windows-specific flag
-- **Version**: Affected package version
-- **Package**: Affected package name
-
-## Technical Notes
-- Includes rate limiting to prevent server overload
-- Internet connection required
-- Processing time varies with file/directory size
-  
-═════════════════════════════════════
 
 check_ip: Log your public IP to a csv file
 
