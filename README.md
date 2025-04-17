@@ -1,8 +1,5 @@
 #This is a store for useful CLI utilities
 
-═════════════════════════════════════
-
-
 
 
 check_ip: Log your public IP to a csv file
