@@ -14,3 +14,6 @@ bulk generate lorem ipsum text into files. Parallel sometimes goes to fast for t
 
 ### postgres-visualizer: 
 Quick check a postgres db with cstore and creat html visualizations to help find problems
+
+### git-utils:
+Clean large files from Git history that exceed GitHub's size limits. Creates backup branch, finds files over specified size (default 100MB), and removes them from entire Git history with safety checks.
